@@ -1,0 +1,20 @@
+[submodule "editions/community"]
+	path = editions/community
+	url = git@github.com:silimium/community.git
+	branch = .
+[submodule "editions/enterprise"]
+	path = editions/enterprise
+	url = git@github.com:silimium/enterprise.git
+	branch = .
+[submodule "features/user-feature"]
+	path = features/user-feature
+	url = git@github.com:silimium/user-feature.git
+	branch = .
+[submodule "features/task-feature"]
+	path = features/task-feature
+	url = git@github.com:silimium/task-feature.git
+	branch = .
+[submodule "features/task-archive-feature"]
+	path = features/task-archive-feature
+	url = git@github.com:silimium/task-archive-feature.git
+	branch = .
