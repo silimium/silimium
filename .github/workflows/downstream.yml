@@ -1,0 +1,16 @@
+name: Handle downstream events
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Downstream repository'
+        required: true
+      ref:
+        description: 'Branch or tag ref'
+        required: true
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ github.event.inputs.source }} ${{ github.event.inputs.ref }}"
