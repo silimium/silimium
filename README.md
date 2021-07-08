@@ -8,9 +8,9 @@ git submodule set-branch --branch . editions/community
 git submodule update --remote --recursive
 ```
 
-## Add a bundle as submodule
+## Add a component as submodule
 
 ```shell
-git submodule add -b master git@github.com:silimium/task-feature.git src/Silimium/TaskBundle
-git submodule set-branch --branch . src/Silimium/TaskBundle
+git submodule add -b master git@github.com:silimium/task-component.git components/task-component
+git submodule set-branch --branch . components/task-component
 ```

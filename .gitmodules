@@ -6,15 +6,15 @@
 	path = editions/enterprise
 	url = git@github.com:silimium/enterprise.git
 	branch = .
-[submodule "features/user-feature"]
-	path = features/user-feature
-	url = git@github.com:silimium/user-feature.git
+[submodule "components/user-component"]
+	path = components/user-component
+	url = git@github.com:silimium/user-component.git
 	branch = .
-[submodule "features/task-feature"]
-	path = features/task-feature
-	url = git@github.com:silimium/task-feature.git
+[submodule "components/task-component"]
+	path = components/task-component
+	url = git@github.com:silimium/task-component.git
 	branch = .
-[submodule "features/task-archive-feature"]
-	path = features/task-archive-feature
-	url = git@github.com:silimium/task-archive-feature.git
+[submodule "components/task-archive-component"]
+	path = components/task-archive-component
+	url = git@github.com:silimium/task-archive-component.git
 	branch = .
